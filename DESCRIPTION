@@ -1,0 +1,19 @@
+Package: dsApplyClient
+Type: Package
+Title: Client-Side Interface for dsApply
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Andreas", "Mändle",
+      email = "maendle@leibniz-bips.de",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides client-side functions for applying and aggregating
+    functions across DataSHIELD servers using the dsApply server package.
+    Includes interfaces for grouped aggregation and pooling of server-side
+    results.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
